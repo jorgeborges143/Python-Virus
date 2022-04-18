@@ -25,6 +25,7 @@ But Monero doesn't stop there, Monero has the "secret spend key" like all other 
 In the Monero blockchain, the sender and receiver information is "hidden", in this case, only the "public view key", this means you can only see the transaction value and transactions sent by the address if you have the "private view key", even so, you can't see who sent the XMR to your wallet address. This is the reason why Monero is considered the cryptocurrency offering more privacy and anonymity to its users.
 
 e.g:
+
 https://localmonero.co/blocks/tx/0ed322657624584a28a2a814208a4a8a7337adf0360861b9460a1aeea4081d8b
 https://blockchair.com/en/monero/transaction/0ed322657624584a28a2a814208a4a8a7337adf0360861b9460a1aeea4081d8b
 
