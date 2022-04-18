@@ -6,6 +6,7 @@ This script is fully built in python and tested in virtual environments [win10|w
 
 # What is a ransomware?
 Ransomware, is a word that derives from joining the words "Ransom"+"Malware".
+
 This kind of virus restricts access to any infected system, normally, the ransomware encrypts all the user's data and sometimes even applications, normally followed by a ransom in cryptocurrencies, claiming this is the only way to restore the information. 
 This kind of payments, can make it really hard for authorities to find the author of the crime. 
 Since normally payments are made in cryptocurrencies like BTC, LTC, or ETH, the authorities and entities responsible for finding cybercriminals can use the blockchain to follow and trace the stolen cryptocurrencies.
